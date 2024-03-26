@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.mariojp.TaskApp</groupId>
+    <artifactId>AppTask</artifactId>
+    <version>0.0.0.1</version>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>My Maven Repo on GitHub</name>
+            <url>https://raw.githubusercontent.com/ucsal/easytask-LolipopBlues.git/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.mariojp.easytask</groupId>
+            <artifactId>easytask</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+</project>
